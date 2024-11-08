@@ -1,0 +1,55 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo azul claro */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a7c8f2; /* Azul suave */
+    color: #333;
+    text-align: center;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4e79b0; /* Azul más oscuro */
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Estilo para las secciones */
+main {
+    padding: 20px;
+}
+
+/* Estilo del mensaje */
+.mensaje {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 20px;
+    color: #6b6b6b;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #4e79b0;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
